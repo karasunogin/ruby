@@ -1,7 +1,5 @@
-puts 1 + 2
-
-a = "Hallo, world!"
-puts a
-
-b = "こんにちは"
-puts b
+(5 + 1 - 2) * 3
+def add(a, b)
+  a + b
+end
+add(4, )
