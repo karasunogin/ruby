@@ -17,3 +17,12 @@ puts fizz_buzz(4)
 puts fizz_buzz(5)
 puts fizz_buzz(6)
 puts fizz_buzz(15)
+
+a = <<~TEXT
+\  これはヒアドキュメントです。
+\  複数行にわたる長い文字列を作成するのに便利です。
+TEXT
+puts a
+
+
+puts "\u3042\u3044\u3046"
